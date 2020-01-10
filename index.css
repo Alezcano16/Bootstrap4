@@ -4,7 +4,7 @@
 
 .btn-platzi {
   background-color: #97c93e;
-  color: white;
+  color: white !important;
 }
 
 .btn-platzi:hover {
@@ -33,6 +33,7 @@
   right: 0;
   background-color: rgba(0, 0, 0, 0.5);
   color: white;
+  z-index: 1;
 }
 
 #carousel .overlay .container,
@@ -55,4 +56,5 @@
 
 #footer a {
   color: white;
+  
 }
